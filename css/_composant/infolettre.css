@@ -33,13 +33,12 @@
 
             div
             {
-                font-size: 63.4px;
+                font-size: 57px;
                 width: 781.8px;
-                height: 296.2px;
+                height: 260px;
                 margin-left: 30px;
                 font-family: 'Ethereal';
                 text-transform: uppercase;
-
 
                 /* @media (min-width: 768px)
                 {
