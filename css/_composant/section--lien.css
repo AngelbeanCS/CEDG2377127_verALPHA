@@ -1,0 +1,139 @@
+/*[ SECTION LIEN ]*/
+/* ------------------------------------------------------------ */
+
+.contact
+{
+
+    width: 510px;
+    
+    h3 
+    {
+        font-size: 40.0px;
+        color: var(--beige);
+        font-family: 'Montserrat';
+        text-transform: uppercase;
+        margin-bottom: 7px;
+
+        /* @media (min-width: 992px)
+        {
+            font-size: 35px;
+            margin-bottom: 10px;
+        } */
+
+    }
+
+
+
+    p  
+    {
+        color: var(--beige);
+        font-size: 19.8px;
+        font-weight: 400;
+        font-family: 'Montserrat';
+    }
+
+
+
+    span 
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 20px;
+
+        img 
+        {
+            height: 44.2px;
+            width: 68.6px;
+            margin-right: 10.2px;
+
+
+            /* @media (min-width: 992px)
+            {
+                height: 47.0px;
+            } */
+        }
+
+    }
+
+
+}
+
+.plus--info
+{
+    display: flex;
+    flex-direction: column;
+    
+    height: 401.4px;
+
+    /* @media (min-width: 768px)
+    {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        padding: 20px;
+        width: 299.4px;
+    }
+
+
+    @media (min-width: 992px)
+    {
+        width: 244.0px;
+        margin-left: 20px;
+    } */
+
+
+    h3 
+    {
+        font-size: 40.0px;
+        color: var(--beige);
+        font-family: 'Montserrat';
+        text-transform: uppercase;
+        margin-bottom: 7px;
+
+
+        /* @media (min-width: 992px)
+        {
+            font-size: 35px;
+            margin-bottom: 10px;
+        } */
+
+    }
+
+    
+
+    a 
+    {
+
+        color: var(--beige);
+        font-size: 19.8px;
+        font-weight: 400;
+        font-family: 'Montserrat';
+
+        border-bottom: 1px var(--beige) solid;
+        width: 100px;
+        margin-bottom: 32.2px;
+        transition: 0.5s;
+        
+
+        &:hover
+        {
+            border-bottom: 1.5px var(--rouge) solid;
+            font-size: 21px;
+            width: 145.2px;
+            margin-bottom: 32.2px;
+            color: var(--rouge);
+        }
+
+
+        /* @media (min-width: 768px)
+        {
+            width: 136px;
+        }
+
+        @media (min-width: 992px)
+        {
+            width: 136px;
+        } */
+    }
+}
