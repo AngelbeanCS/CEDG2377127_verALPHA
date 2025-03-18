@@ -6,7 +6,7 @@
 
     h1 
     {
-        font-size: 195px;
+        font-size: 171px;
         text-transform: uppercase;
         text-align: left;
         color: var(--rouge);
@@ -32,19 +32,19 @@
         
         .groupe--items
         {
-            grid-column: 1/7;
+            grid-column: 7/13;
         }
 
         .image--table
         {
 
-            grid-column: 7/13;
+            grid-column: 1/7;
             grid-row: 2/3;
 
             
             img 
             {
-                height: 796px;
+                height: 800px;
                 width: 1388px;
                 object-fit: cover;
             }
@@ -71,14 +71,14 @@
         
         .groupe--items
         {
-            grid-column: 7/13;
+            grid-column: 1/7;
             grid-row: 2/6;
         }
 
         .image--entree
         {
 
-            grid-column: 1/7;
+            grid-column: 7/13;
             grid-row: 2/3;
 
             
@@ -94,7 +94,7 @@
         .image--entree2
         {
 
-            grid-column: 1/7;
+            grid-column: 7/13;
             grid-row: 3/6;
 
             
