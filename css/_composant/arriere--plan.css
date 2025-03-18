@@ -3,6 +3,7 @@
 
     .arriere--plan
     {
+        position: relative;
         background-image: url(../../assets/images/png/Composant\ 5\ –\ 1.png);
         border: none;
         z-index: 10;
@@ -11,4 +12,17 @@
         width: 100vw;
 
     }
+
+    /* .pieuvre
+    {
+        position: absolute;
+        top: 300px;
+        left: 200px;
+
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+
+        z-index: 11;
+    } */
 }
