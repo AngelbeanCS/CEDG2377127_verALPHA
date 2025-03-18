@@ -8,210 +8,195 @@
 </head>
 <body>
     <div class="interface">
-        <header>
-                <!-- Bouton de l'ouverture du menu rétractable -->
-            <svg id='burger--menu' viewBox="0 0 100 80" width="40" height="40" onclick="openNav()" >
-                <rect width="100" height="20"></rect>
-                <rect width="100" height="20" y="30" ></rect>
-                <rect width="100" height="20" y="60" ></rect>
-            </svg>
-            <section>
-                <img src="assets/images/svg/LogoHorizonFonce.svg" alt="">
-                <button>Réserver</button>
-            </section>
-
-            <img src="assets/images/jpg/photoHeader.jpg" alt="Photo header">
-
-        </header>
-
-        <nav id="nav--primary">
+        <div class="arriere--plan">
+            <header>
+                    <!-- Bouton de l'ouverture du menu rétractable -->
+                <svg id='burger--menu' viewBox="0 0 100 80" width="40" height="40" onclick="openNav()" >
+                    <rect width="100" height="20"></rect>
+                    <rect width="100" height="20" y="30" ></rect>
+                    <rect width="100" height="20" y="60" ></rect>
+                </svg>
+                <section>
+                    <img src="assets/images/svg/LogoHorizonFonce.svg" alt="">
+                    <button>Réserver</button>
+                </section>
+                <img src="assets/images/jpg/photoHeader.jpg" alt="Photo header">
+            </header>
+            <nav id="nav--primary">
             
-            <a href="javascript:void(0)" id="btn--close" onclick="closeNav()">&times;</a>
-        
-            <ul class="nav--liste">
-                <li class="nav--element"> <a href="page404.html" onclick="redirection(event)">Mon premier choix</a> </li>
-                <li class="nav--element"> <a href="index.html" onclick="redirection(event)">Ma deuxième option</a> </li>
-                <li class="nav--element"> <a href="#">Et ma dernière option</a> </li>
-            </ul>
+                <a href="javascript:void(0)" id="btn--close" onclick="closeNav()">&times;</a>
             
-        </nav>
-
-        <main>
-
-            <section class="intro">
-                <h1>
-                    Notre Menu
-                </h1>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-            </section>
-
-            <section class="item-resto">
-                <!-- <h1>Menu</h1> -->
-                <div class="table--hote">
-
-                    <h1>Table d'Hôte</h1>
-
-                    <div class="groupe--items">
-                        <div class="item--prix">
-                            <div class="description">
-                                <span>Option 1</span>
-                                <p>Description</p>
+                <ul class="nav--liste">
+                    <li class="nav--element"> <a href="page404.html" onclick="redirection(event)">Mon premier choix</a> </li>
+                    <li class="nav--element"> <a href="index.html" onclick="redirection(event)">Ma deuxième option</a> </li>
+                    <li class="nav--element"> <a href="#">Et ma dernière option</a> </li>
+                </ul>
+            
+            </nav>
+            <main>
+                <section class="intro">
+                    <h1>
+                        Notre Menu
+                    </h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </section>
+                <section class="item-resto">
+                    <!-- <h1>Menu</h1> -->
+                    <div class="table--hote">
+                        <h1>Table d'Hôte</h1>
+                        <div class="groupe--items">
+                            <div class="item--prix">
+                                <div class="description">
+                                    <span>Option 1</span>
+                                    <p>Description</p>
+                                </div>
+                                <span>$$$</span>
                             </div>
-                            <span>$$$</span>
+                            <div class="item--prix">
+                                <div class="description">
+                                    <span>Option 2</span>
+                                    <p>Description</p>
+                                </div>
+                                <span>$$$</span>
+                            </div>
+                            <div class="item--prix">
+                                <div class="description">
+                                    <span>Option 3</span>
+                                    <p>Description</p>
+                                </div>
+                                <span>$$$</span>
+                            </div>
+                            <div class="item--prix">
+                                <div class="description">
+                                    <span>Option 4</span>
+                                    <p>Description</p>
+                                </div>
+                                <span>$$$</span>
+                            </div>
                         </div>
-                        <div class="item--prix">
-                            <div class="description">
-                                <span>Option 2</span>
-                                <p>Description</p>
-                            </div>
-                            <span>$$$</span>
-                        </div>
-                        <div class="item--prix">
-                            <div class="description">
-                                <span>Option 3</span>
-                                <p>Description</p>
-                            </div>
-                            <span>$$$</span>
-                        </div>
-                        <div class="item--prix">
-                            <div class="description">
-                                <span>Option 4</span>
-                                <p>Description</p>
-                            </div>
-                            <span>$$$</span>
-                        </div>
-                    </div>
-
-                    <div class="image--table">
-                        <img src="assets/images/jpg/tableHote.jpg" alt="Table d'Hote">
-                    </div>
-                </div>
-
-                <div class="entree">
-                    <h1>Entrées</h1>
-                    <div class="groupe--items">
-                        <div class="item--prix">
-                            <div class="description">
-                                <span>Option 1</span>
-                                <p>Description</p>
-                            </div>
-                            <span>$$$</span>
-                        </div>
-                        <div class="item--prix">
-                            <div class="description">
-                                <span>Option 2</span>
-                                <p>Description</p>
-                            </div>
-                            <span>$$$</span>
-                        </div>
-                        <div class="item--prix">
-                            <div class="description">
-                                <span>Option 3</span>
-                                <p>Description</p>
-                            </div>
-                            <span>$$$</span>
-                        </div>
-                        <div class="item--prix">
-                            <div class="description">
-                                <span>Option 4</span>
-                                <p>Description</p>
-                            </div>
-                            <span>$$$</span>
-                        </div>
-                        <div class="item--prix">
-                            <div class="description">
-                                <span>Option 5</span>
-                                <p>Description</p>
-                            </div>
-                            <span>$$$</span>
-                        </div>
-                        <div class="item--prix">
-                            <div class="description">
-                                <span>Option 6</span>
-                                <p>Description</p>
-                            </div>
-                            <span>$$$</span>
-                        </div>
-                        <div class="item--prix">
-                            <div class="description">
-                                <span>Option 7</span>
-                                <p>Description</p>
-                            </div>
-                            <span>$$$</span>
-                        </div>
-                        <div class="item--prix">
-                            <div class="description">
-                                <span>Option 8</span>
-                                <p>Description</p>
-                            </div>
-                            <span>$$$</span>
+                        <div class="image--table">
+                            <img src="assets/images/jpg/tableHote.jpg" alt="Table d'Hote">
                         </div>
                     </div>
-
-                    <div class="image--entree">
-                        <img src="assets/images/jpg/tableHote.jpg" alt="Table d'Hote">
+                    <div class="entree">
+                        <h1>Entrées</h1>
+                        <div class="groupe--items">
+                            <div class="item--prix">
+                                <div class="description">
+                                    <span>Option 1</span>
+                                    <p>Description</p>
+                                </div>
+                                <span>$$$</span>
+                            </div>
+                            <div class="item--prix">
+                                <div class="description">
+                                    <span>Option 2</span>
+                                    <p>Description</p>
+                                </div>
+                                <span>$$$</span>
+                            </div>
+                            <div class="item--prix">
+                                <div class="description">
+                                    <span>Option 3</span>
+                                    <p>Description</p>
+                                </div>
+                                <span>$$$</span>
+                            </div>
+                            <div class="item--prix">
+                                <div class="description">
+                                    <span>Option 4</span>
+                                    <p>Description</p>
+                                </div>
+                                <span>$$$</span>
+                            </div>
+                            <div class="item--prix">
+                                <div class="description">
+                                    <span>Option 5</span>
+                                    <p>Description</p>
+                                </div>
+                                <span>$$$</span>
+                            </div>
+                            <div class="item--prix">
+                                <div class="description">
+                                    <span>Option 6</span>
+                                    <p>Description</p>
+                                </div>
+                                <span>$$$</span>
+                            </div>
+                            <div class="item--prix">
+                                <div class="description">
+                                    <span>Option 7</span>
+                                    <p>Description</p>
+                                </div>
+                                <span>$$$</span>
+                            </div>
+                            <div class="item--prix">
+                                <div class="description">
+                                    <span>Option 8</span>
+                                    <p>Description</p>
+                                </div>
+                                <span>$$$</span>
+                            </div>
+                        </div>
+                        <div class="image--entree">
+                            <img src="assets/images/jpg/tableHote.jpg" alt="Table d'Hote">
+                        </div>
+                        <div class="image--entree2">
+                            <img src="assets/images/jpg/tableHote.jpg" alt="Table d'Hote">
+                        </div>
                     </div>
-                    <div class="image--entree2">
-                        <img src="assets/images/jpg/tableHote.jpg" alt="Table d'Hote">
+                </section>
+            </main>
+            <footer>
+                <section class="infolettre">
+                    <div>
+                        Vous souhaitez rester au courant de nos dernières mises à jour ?
                     </div>
-                </div>
-            </section>
-        </main>
-
-
-        <footer>
-            <section class="infolettre">
-                <div>
-                    Vous souhaitez rester au courant de nos dernières mises à jour ?
-                </div>
-                <article>
-                    <p>Inscrivez vous à notre infolettre</p>
-                    <input type="text" name="infolettre" id="formInfo" value="adresse courriel">
-                </article>
-            </section>
-
-            <section class="information">
-                <div class="logo">
-                    <img src="assets/images/svg/logo_principal.svg" alt="LogoHorizon">
-                    <!-- <span>Izakaya Hiroshi</span> -->
-                </div>
-
-                <div class="contact">
-                    <h3>Contact</h3>
-                    <span class="nb--phone">
-                        <img src="assets/images/svg/phone.svg" alt="phone">
-                        <p>514-123-4567</p>
-                    </span>
-
-                    <span class="adresse--resto">
-                        <img src="assets/images/svg/map-pin.svg" alt="map-pin">
-                        <p>123, Rue des Pins, Sainte-Agathe-des-Monts </p>
-                    </span>
-                </div>
-                
-                <div class="plus--info">
-                    <h3>Plus d'info</h3>
-                    <a href="#">option 1</a>
-                    <a href="#">option 2</a>
-                </div>
-
-                <div class="icon">
-                    <!-- <div class="icones">
-                    </div> -->
-                    <img src="assets/images/svg/instagram.svg" alt="icon instagram">
-                    <img src="assets/images/svg/icons8-linkedin.svg" alt="icon linkedin">
-                    <img src="assets/images/svg/icons8-facebook.svg" alt="icon facebook">
-                    <img src="assets/images/svg/icons8-pinterest.svg" alt="icon pinterest">
-                </div>
-            </section>
-        </footer>
+                    <article>
+                        <p>Inscrivez vous à notre infolettre</p>
+                        <input type="text" name="infolettre" id="formInfo" value="adresse courriel">
+                    </article>
+                </section>
+                <section class="information">
+                    <div class="logo">
+                        <img src="assets/images/svg/logo_principal.svg" alt="LogoHorizon">
+                        <!-- <span>Izakaya Hiroshi</span> -->
+                    </div>
+                    <div class="contact">
+                        <h3>Contact</h3>
+                        <span class="nb--phone">
+                            <img src="assets/images/svg/phone.svg" alt="phone">
+                            <p>514-123-4567</p>
+                        </span>
+                        <span class="adresse--resto">
+                            <img src="assets/images/svg/map-pin.svg" alt="map-pin">
+                            <p>123, Rue des Pins, Sainte-Agathe-des-Monts </p>
+                        </span>
+                    </div>
+            
+                    <div class="plus--info">
+                        <h3>Plus d'info</h3>
+                        <a href="#">option 1</a>
+                        <a href="#">option 2</a>
+                    </div>
+                    <div class="icon">
+                        <!-- <div class="icones">
+                        </div> -->
+                        <img src="assets/images/svg/instagram.svg" alt="icon instagram">
+                        <img src="assets/images/svg/icons8-linkedin.svg" alt="icon linkedin">
+                        <img src="assets/images/svg/icons8-facebook.svg" alt="icon facebook">
+                        <img src="assets/images/svg/icons8-pinterest.svg" alt="icon pinterest">
+                    </div>
+                </section>
+            </footer>
+        </div>
         
     </div>
 
