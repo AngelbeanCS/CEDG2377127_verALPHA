@@ -10,14 +10,16 @@
 @import url('_composant/header.css');
 @import url('_composant/intro.css');
 @import url('_composant/item-resto.css');
+@import url('_composant/item--prix.css');
 @import url('_composant/infolettre.css');
 @import url('_composant/footer.css');
+@import url('_composant/section--lien.css');
 
 @import url('_composant/nav--primary.css');
 @import url('_composant/nav--menu.css');
 @import url('_composant/nav--close.css');
+
 @import url('_composant/page--introuvable.css');
-@import url('_composant/item--prix.css');
  
 /*[ importation du dossier _layout ]*/
 @import url('_layout/structure.css');
