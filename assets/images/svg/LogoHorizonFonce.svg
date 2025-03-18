@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 89.67 37.97">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        isolation: isolate;
+      }
+
+      .cls-1, .cls-3 {
+        font-family: DolceVitaHeavy-Bold, 'Dolce Vita Heavy';
+        font-size: 20px;
+        font-weight: 700;
+      }
+
+      .cls-1, .cls-3, .cls-4 {
+        fill: #2e2e2e;
+      }
+
+      .cls-3 {
+        letter-spacing: -.13em;
+      }
+    </style>
+  </defs>
+  <g class="cls-2">
+    <text class="cls-1" transform="translate(0 17)"><tspan x="0" y="0">IZAKA</tspan></text>
+    <text class="cls-3" transform="translate(50.8 17)"><tspan x="0" y="0">Y</tspan></text>
+    <text class="cls-1" transform="translate(59.09 17)"><tspan x="0" y="0">A</tspan></text>
+  </g>
+  <g class="cls-2">
+    <text class="cls-1" transform="translate(19.86 34.49)"><tspan x="0" y="0">HIROSHI</tspan></text>
+  </g>
+  <g>
+    <rect class="cls-4" x="71.9" y="3.03" width="10.96" height=".94"/>
+    <rect class="cls-4" x="87.59" y="9.41" width=".94" height="10.21"/>
+    <rect class="cls-4" x="75.9" y="5.13" width="12.63" height=".94"/>
+    <rect class="cls-4" x="83.71" y="3.02" width="3.04" height=".94"/>
+    <rect class="cls-4" x="81.92" y="7.3" width="6.61" height=".94"/>
+    <rect class="cls-4" x="83.71" y="3.02" width=".94" height="7.33"/>
+    <rect class="cls-4" x="81.92" y="3.03" width=".94" height="5.21"/>
+    <rect class="cls-4" x="87.59" y="5.13" width=".94" height="3.11"/>
+    <rect class="cls-4" x="83.71" y="9.41" width="4.81" height=".94"/>
+    <rect class="cls-4" x="85.82" y="3.02" width=".94" height="12.63"/>
+  </g>
+</svg>

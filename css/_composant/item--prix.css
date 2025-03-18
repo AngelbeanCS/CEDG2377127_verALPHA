@@ -1,0 +1,43 @@
+/*[ ITEM PRIX]*/
+/* ------------------------------------------------------------ */
+
+.item--prix
+{
+    height: 200px;
+    display: flex;
+    justify-content: space-between; 
+    width: 768px;
+
+    border: 2px red solid;
+
+    span 
+    {
+        font-family: 'Montserrat';
+        font-weight: 600;
+        color: var(--noir);
+        font-size: 55px;
+        margin-left: 30px;
+
+        @media (min-width: 992px)
+        {
+            font-size:  52px;
+        }
+    }
+    
+
+
+    p
+    {
+        font-family: 'Montserrat';
+        font-weight: 400;
+        color: var(--noir);
+        font-size: 40px;
+        margin-left: 46px;
+
+        @media (min-width: 992px)
+        {
+            font-size:  35px;
+        }
+    }
+    
+}

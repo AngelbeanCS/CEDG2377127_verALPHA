@@ -1,0 +1,61 @@
+/*[ VARIABLES DU PROJET ]*/
+/* ------------------------------------------------------------ */
+/* body
+{
+    
+} */
+
+.erreur
+{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--grisFonce);
+    
+    h1
+    {
+        font-family: 'Ethereal';
+        font-size: 180px;
+        color: var(--rougeFonce);
+        text-align: center;
+        height: 223.4px;
+
+        border: 2px var(--beige) solid;
+    }
+
+    p 
+    {
+        font-family: 'Montserrat';
+        font-size: 45px;
+        color: var(--rouge);
+        text-align: center;
+        padding: 10px;
+    }
+
+    button
+        {
+            /* background-color: var(--noir); */
+            border: 2px var(--beige) solid;
+            color: var(--beige);
+            font-family: 'Chillen';
+            font-size: 27px;
+            
+            width: 166.8px;
+            height: 48.6px;
+            border-radius: 10px;
+            margin-right: -1.0px;
+
+            &:hover
+            {
+                background-color: var(--rouge);
+                color: var(--noir);
+                border: none;
+
+                transition: background-color 0.5s, color 0.3s;
+            }
+        }
+
+
+}

@@ -1,0 +1,136 @@
+/*[ COMPOSANT INFOLETTRE]*/
+/* ------------------------------------------------------------ */
+
+        
+        .infolettre
+        {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            align-content: center;
+
+            background-color: var(--rougeFonce);
+            width: 100vw;
+            height: 372px;
+            padding: auto;
+
+            /* @media (min-width: 768px)
+            {
+                height: 1034.8px;
+                padding: 54.6px;
+                width: 100%;
+                align-items: flex-start;
+                align-content: center;
+            }
+            
+            @media (min-width: 992px)
+            {
+                height: 506.8px;
+                flex-direction: column;
+            } */
+            
+
+
+            div
+            {
+                font-size: 63.4px;
+                width: 781.8px;
+                height: 296.2px;
+                margin-left: 30px;
+                font-family: 'Ethereal';
+                text-transform: uppercase;
+
+
+                /* @media (min-width: 768px)
+                {
+                    font-size: 91.8px;
+                    width: 718.8px;
+                    height: 697.0px;
+                }
+                
+                @media (min-width: 992px)
+                {
+                    font-size: 67.6px;
+                    width: 937.6px;
+                    height: 299.2px;
+                    text-align: left;
+                } */
+            }
+            
+
+
+            article
+            {
+                position: relative;
+                
+                p
+                {
+                    position: absolute;
+                    right: 306.4px;
+                    bottom: -1.2px;
+
+                    height: 44.4px;
+                    width: 478.2px;
+                    margin-bottom: 10px;
+
+                    font-size: 30.6px;
+                    font-family: 'Montserrat';
+                    color: var(--beige);
+
+
+
+                    /* @media (min-width: 768px)
+                    {
+                        right: 98.2px;
+                        top: 594.0px;
+                        
+                        width: 627.6px;
+
+                        font-size: 62.6px;
+                    }
+                    
+                    @media (min-width: 992px)
+                    {
+                        right: -150.2px;
+                        bottom: 132.4px;
+                        
+                        height: 60.0px;
+                        width: 605.4px;
+
+                        font-size: 35.8px;
+                    } */
+                }
+                
+
+
+                #formInfo
+                {
+                    position: absolute;
+                    right: 306.4px;
+                    bottom: -43.0px;
+
+                    background-color: var(--beige);
+                    height: 44.4px;
+                    width: 478.2px;
+
+                    border-radius: 5.8px;
+                    padding: 5px;
+                    color: grey;
+
+                    /* @media (min-width: 768px)
+                    {
+                        top: 788.2px;
+                        right: 87.4px;
+                        width: 633.2px;
+                        height: 56.6px;
+                    }
+
+                    @media (min-width: 992px)
+                    {
+                        bottom: 100px;
+                        right: -150.2px;
+                        width: 605.4px;
+                    } */
+                }
+            }
+        }

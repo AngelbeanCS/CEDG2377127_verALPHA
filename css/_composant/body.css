@@ -1,0 +1,8 @@
+/*[ COMPOSANT BODY]*/
+/* ------------------------------------------------------------ */
+
+body
+{
+    background-color: var(--beige);
+    padding: 0 40px;
+}

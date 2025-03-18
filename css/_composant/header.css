@@ -1,0 +1,180 @@
+/*[ COMPOSANT HEADER ]*/
+/* ------------------------------------------------------------ */
+
+header
+{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+
+    height: 859.2px;
+    width: 100%;
+
+    @media (max-width: 768px)
+    {
+        height: 1043.2px;
+    }
+
+    @media (max-width: 992px)
+    {
+        grid-template-rows: repeat(6,1fr);
+        max-height: 1104px;
+    }
+
+
+
+    /* PROBLEME 1 */
+    #burger--menu
+    {
+        position: fixed;
+        left: 186.6px;
+        top: 39.4px;
+        padding : 6.6px;
+        cursor: pointer;
+        width: 70px;
+        height: 100px;
+        z-index: 15000;
+        transition: background-color 0.5s, border 0.3s;
+
+        @media (max-width: 768px)
+        {
+            left: 56.2px;
+            width: 90.6px;  
+            
+            /* fill: var(--beige); */
+        }
+        
+        
+        &rect{
+            fill: var(--noir);
+        }
+        
+        &:hover{
+            
+            &rect{
+                color: var(--rouge);
+            }
+        }
+    }
+    
+
+
+    img
+    {
+        width: 2134.6px;
+        height: 365.8px;
+        object-fit: cover;
+
+        grid-row: 2/4;
+        grid-column: 2/12;
+
+        /* border: px red solid; */
+
+        
+        @media (max-width: 992px)
+        {
+            grid-row: 2/6;
+            height: 734.2px;
+        }
+
+        @media (max-width: 768px)
+        {
+            grid-row: 1/7;
+            grid-column: 1/13;
+
+            height: 869px;
+        }
+    
+    }
+
+
+
+    section 
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        grid-column: 6/12;
+
+        
+        @media (max-width: 992px)
+        {
+            grid-column: none;
+            display: block;
+            position: relative;
+        }
+        
+        img
+        {
+            width: 243.2px;
+            height: 95.8px;
+
+            
+            
+            @media (max-width: 992px)
+            {
+                position: absolute;
+                top: 55px;
+                left: -477.4px;
+                
+                width: 168.0px;
+                height: 75.2px;
+                object-fit: contain;
+            }
+            
+            @media (max-width: 768px)
+            {
+                z-index: 15000;
+                top: 55px;
+                left: -477.4px;
+                
+                width: 168.0px;
+                height: 75.2px;
+            }
+        }
+
+
+
+        button
+        {
+            background-color: var(--noir);
+            color: var(--beige);
+            font-family: 'Chillen';
+            font-size: 36px;
+            
+            width: 307.8px;
+            height: 60.6px;
+            border-radius: 10px;
+            margin-right: -1.0px;
+
+            &:hover
+            {
+                background-color: var(--rouge);
+                color: var(--noir);
+
+                transition: background-color 0.5s, color 0.3s;
+            }
+
+            
+            @media (max-width: 992px)
+            {
+                position: absolute;
+                top: 55px;
+                left: -477.4px;
+            }
+
+            @media (max-width: 768px)
+            {
+                top: 928px;
+                right: -477.4px;
+                width: 306.8px;
+                height: 73.6px;
+                font-size: 52px;
+            }
+        }
+
+    }
+    }
+
+

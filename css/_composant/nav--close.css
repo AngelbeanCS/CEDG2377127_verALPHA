@@ -1,0 +1,12 @@
+#nav--primary #btn--close{
+    position: absolute;
+    top: 1.8rem;
+    right: 3.8rem;
+    font-size: 5rem;
+    color: var(--beige);
+    cursor: pointer;
+
+    &:hover{
+        color: var(--noir);
+    }
+}
