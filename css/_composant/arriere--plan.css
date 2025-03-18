@@ -1,0 +1,14 @@
+.interface
+{
+
+    .arriere--plan
+    {
+        background-image: url(../../assets/images/png/Composant\ 5\ –\ 1.png);
+        border: none;
+        z-index: 10;
+        position: static;
+        height: 100%;
+        width: 100vw;
+
+    }
+}

@@ -20,6 +20,8 @@
 @import url('_composant/nav--close.css');
 
 @import url('_composant/page--introuvable.css');
+
+@import url('_composant/arriere--plan.css');
  
 /*[ importation du dossier _layout ]*/
 @import url('_layout/structure.css');
