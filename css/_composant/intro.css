@@ -4,8 +4,8 @@
 .intro
 {
     width: 100vw;
-    height: 600px;
-    padding: 10px;
+    height: 809px;
+    padding: 84px;
     margin-bottom: 152.4px;
     background-color: #F6DECF;
 
@@ -30,7 +30,7 @@
     {
         color: var(--rouge);
         text-align: center;
-        font-size: 80px;
+        font-size: 98px;
         margin-top: 6.2px;
 
         
@@ -50,7 +50,7 @@
 
     p 
     {
-        font-size: 30px;
+        font-size: 28px;
         text-align: center;
         margin-top: 50px;
 
